@@ -1,10 +1,10 @@
-import AdvertisementController from "../api/controllers/AdvertisementController";
+import AdvertisementControllerHex from "../api/controllers/AdvertisementControllerHex";
 import { FrameworkRequest } from "./FrameworkRequest";
 import { FrameworkResponse } from "./FrameworkResponse";
 
 export class FrameworkServer {
 
-  private advertisementController = new AdvertisementController()
+  private advertisementController = new AdvertisementControllerHex();
 
   private constructor() { }
 
